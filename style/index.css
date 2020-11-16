@@ -1,4 +1,4 @@
-Colorscheme {
+/* Colorscheme {
   color: #3e424b;
   color: #5787ff;
   color: #7a849a;
@@ -13,7 +13,7 @@ Colorscheme {
 }
 .poppins {
   font-family: "Poppins", sans-serif;
-}
+} */
 
 * {
   font-family: "Poppins", sans-serif;
@@ -134,7 +134,7 @@ Colorscheme {
 
 /* -------------------------------card section css------------------------------------- */
 .image {
-  background-color: #5787ff;
+  background-color: #f8f8f8;
 }
 
 .image img {
@@ -155,6 +155,7 @@ Colorscheme {
 
 .card {
   flex: 0 0 300px;
+  /* flex: shrink grow basis */
   /* box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3); */
   margin: 10px;
   border-radius: 1rem;
