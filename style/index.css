@@ -136,7 +136,9 @@
 .image {
   background-color: #f8f8f8;
 }
-
+.image:hover {
+  background-color: #5787ff;
+}
 .image img {
   width: 100%;
   height: 40vh;
