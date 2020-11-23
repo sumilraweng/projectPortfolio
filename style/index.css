@@ -74,7 +74,7 @@
 
 .nav-container li {
   display: inline;
-  margin: 20px;
+  margin: 4vw;
 }
 
 .nav-container > li:hover {
@@ -134,11 +134,9 @@
 
 /* -------------------------------card section css------------------------------------- */
 .image {
-  background-color: #f8f8f8;
+  background-color: #eaeaea;
 }
-.image:hover {
-  background-color: #5787ff;
-}
+
 .image img {
   width: 100%;
   height: 40vh;
@@ -157,12 +155,10 @@
 
 .card {
   flex: 0 0 300px;
-  /* flex: shrink grow basis */
-  /* box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3); */
   margin: 10px;
   border-radius: 1rem;
   overflow: hidden;
-  background-color: #f8f8f8;
+  background-color: #eaeaea;
   margin-bottom: 10px;
 }
 
@@ -181,6 +177,7 @@
 
 .card:hover {
   box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  background-color: #5787ff;
 }
 
 /* -----------------footer--------------------------- */
